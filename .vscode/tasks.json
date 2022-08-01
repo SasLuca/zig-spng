@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "install default_example",
+            "type": "shell",
+            "command": "zig build install",
+            "group": "build",
+            "problemMatcher": [ "$gcc" ]
+        },
+    ]
+}
